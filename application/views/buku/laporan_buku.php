@@ -11,9 +11,9 @@
                  </div>
               <?php }?>
               <?=$this->session->flashdata('pesan'); ?>
-              <a href="<?= base_url('member/cetak_laporan_buku'); ?>" class="btn b tn-primary mb-3"><i class="fas fa-print"></i> Print</a>
-              <a href="<?= base_url('member/laporan_buku_pdf'); ?>" class="btn btn -warning mb-3"><i class="far fa-file-pdf"></i> Download Pdf</a>
-              <a href="<?= base_url('member/export_excel'); ?>" class="btn btnsuccess mb-3"><i class="far fa-file-excel"></i> Export ke Excel</a>
+              <a href="<?= base_url('buku/cetak_laporan_buku'); ?>" class="btn b tn-primary mb-3"><i class="fas fa-print"></i> Print</a>
+              <a href="<?= base_url('buku/laporan_buku_pdf'); ?>" class="btn btn -warning mb-3"><i class="far fa-file-pdf"></i> Download Pdf</a>
+              <a href="<?= base_url('buku/export_excel'); ?>" class="btn btnsuccess mb-3"><i class="far fa-file-excel"></i> Export ke Excel</a>
               <table class="table table-hover">
                    <thead>
                        <tr>
